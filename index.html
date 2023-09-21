@@ -1,0 +1,967 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthrohard Preparat na wsparcie stawów dla psa i kota.</title>
+    <!-- <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet"> -->
+<link href="https://fonts.cdnfonts.com/css/futura-condensed-pt" rel="stylesheet">
+</head>
+<body>
+
+    <style>
+
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            padding: 0;
+            margin: 0;
+            min-width: 1920px;
+            font-family: 'Futura Condensed PT', sans-serif;
+            font-family: 'Futura PT', sans-serif;
+            background-color: #f6f6f6;
+            color: #111111;
+            position: relative;
+            min-height: 6080px;
+            overflow-x: hidden;
+        }
+
+        .padding-left-20px {
+            padding-left: 20px;
+        }
+        .align-center {
+            align-items: center;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+
+        .whole-basis {
+            flex-basis: 100%;
+        }
+        
+        .margin-left-20px {
+            margin-left: 20px;
+        }
+
+        .full-height {
+            height: 100%;
+        }
+
+        .underline {
+            border-bottom: 1px solid black;
+        }
+
+                .red {
+            background-color: #AD4844;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .show {
+            display: block;
+        }
+
+        .white-font {
+            color: white;
+        }
+
+        .flex {
+            display: flex;
+        }
+
+        .white {
+            background-color: white;
+        }
+
+        .shadow {
+            box-shadow: 0px 4px 4px 0px rgba(0, 0 , 0, 0.25);
+        }
+
+        .no-decoration {
+            text-decoration: none;;
+        }
+
+        .no-list-style {
+            list-style: none;
+            padding: 0;
+        }
+
+        .width-1920 {
+            width: 1920px;
+        }
+        .left-245 {
+            left: 245px;
+        }
+
+        nav {
+            height: 122px;
+            font-size: 16px;
+            font-weight: 500;
+            position: fixed;
+            width: 100%;
+            background-color: white;
+            z-index: 3;
+        }
+
+        nav a:first-child {
+            left: 245px;
+            top: 47px;
+        }
+
+        nav ul {
+            top: 48px;
+            left: 785px;
+            width: 351px;
+        }
+
+        nav ul a {
+            text-decoration: none;
+            color: #111111;
+            text-transform: uppercase;
+            font-weight: 450;
+            line-height: 20.51px;
+            transition: 200ms font-weight;
+        }
+
+        nav ul a:first-child {
+            padding-right: 20px;
+        }
+
+        nav ul a:nth-child(2) {
+            padding-right: 20px;
+        }
+
+        nav ul a:hover {
+            font-weight: bold;
+        }
+
+        .absolute {
+            position: absolute;
+        }
+
+        #section1 img:first-child {
+            left: 161.54px;
+            top: 153px;
+        }
+
+        #section1 img:nth-child(2) {
+            left: 946px;
+            top: 301px;
+        }
+
+        #spot1 {
+            top: 985px;
+            left: 20px;
+            z-index: -1;
+        }
+
+        #spot2 {
+            top: 704.14px;
+            left: 1800px;
+            z-index: -1;
+        }
+
+        #spot3 {
+            top: 1129.99px;
+            left: 1412px;
+            z-index: -1;
+        }
+
+        #spot4 {
+            top: 1819px;
+            left:  144.25px;
+            z-index: -1;
+        }
+
+        #spot5 {
+            top: 1776px;
+            left: 552.79px;
+            z-index: -1;
+        }
+
+        #spot6 {
+            top: 1822.49px;
+            left: 715.81px;
+            z-index: -1;
+        }
+
+        #spot7 {
+            top: 1779.04px;
+            left: 1270px;
+        }
+
+        #spot8 {
+            top: 1797.87px;
+            left: 1646.8px;
+            z-index: -1;
+        }
+
+        .green {
+            background-color: #30ab4c;
+        }
+
+        button {
+            border: none;
+            outline: none;
+            color: white;
+            font-size: 20px;
+            line-height: 25.64px;
+            padding: 10px 40px 10px 40px;
+        }
+
+        #calltoactionarea {
+
+            width: 654px;
+            height: 262px;
+            top: 488px;
+            left: 946px
+        }
+
+        #calltoactionarea p {
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        #gradient-headline {
+            font-size: 48px;
+            line-height: 61.54px;
+            width: 100%;
+            height: 124px;
+            font-weight: 450;
+            background: linear-gradient(to right, #111111 0, #B1B1B1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        #gradient-headline2 {
+            background: linear-gradient(to right, #111111 25%, #B1B1B1 50%, #696969 75%, #B1B1B1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            font-size: 48px;
+            width: 523px;
+        }
+
+        #text-area1 {
+            top: 1173px;
+            left: 698px; 
+            width: 523px;
+        }
+
+        #text-area1 p {
+            margin-bottom: 20px;
+        }
+
+        .divider {
+            border-bottom: 1px solid black;
+            width: 126px;
+            margin: auto;
+        }
+
+        .no-margin {
+            margin: 0;
+        }
+
+        #text-row {
+            top: 1390px;
+            left: 187px;
+        }
+
+        #text-row .column {
+            width: 417px
+        }
+
+        #text-row .column:nth-child(2) {
+            width: 312px;
+        }
+
+        #text-row .column:first-child, #text-row .column:nth-child(2) {
+            margin-right: 200;
+        }
+
+        #text-row .column .headline {
+            font-size: 31px;
+            line-height: 39.74px;
+            font-weight: 450;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        #text-row .column .body {
+            margin-top: 30px;
+            font-size: 20px;
+            text-align: center;
+            line-height: 25.64px;
+            font-weight: 400;
+        }
+
+        #text-row .column .body .dot {
+            border-radius: 42px;
+            padding: 10px 17px 10px 17px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        #text-row .column .body ul {
+            text-align: left;
+        }
+
+        .inline {
+            display: inline-block;
+        }
+
+        #banner {
+            top: 1726px;
+            left: 218px;
+        }
+
+        #parallax-dog {
+            background-image: url("public/images/piesek\ 1.png");
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            width: 945px;
+            left: 484px;
+            min-height: 496px;
+            top: 1677px;
+            background-origin: content-box;
+
+        }
+
+        #section2 {
+            width: 1920px;
+            height: 2173px;
+            top: 2136px;
+        }
+
+        #section2 img:first-child {
+            top: 296.95px;
+            left: 607px;
+        }
+
+        .relative {
+            position: relative;
+        }
+
+        .ingredientArea {
+            width: 417px;
+        }
+
+        .ingredientArea .elipse {
+            width: 70px;
+            height: 70px;
+            background-color: #D9D9D9;
+            border-radius: 100%;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+
+        .ingredientArea .headline {
+            font-size: 31px;
+            line-height: 39.74px;
+            padding-bottom: 20px;
+            width: auto;
+            display: inline-block;
+            transition: border 200ms, margin 200ms;
+        }
+
+        .ingredientArea .headline:hover {
+            border-bottom: 1px solid #111111;
+            margin-bottom: 20px;
+        }
+
+        .ingredientArea .body {
+            margin-top: 20px;
+        }
+
+        #ingredientArea1 {
+            left: 193px;
+            top: 393px;
+        }
+
+        #ingredientArea2 {
+            top: 805px;
+            left: 193px;
+        }
+
+        #ingredientArea3 {
+            left: 193px;
+            top: 1217px;
+
+        }
+
+        #ingredientArea4 {
+            left: 1296px;
+            top: 393px;
+        }
+
+        #ingredientArea5 {
+            left: 1296px;
+            top: 805px;
+        }
+
+        #ingredientArea6 {
+            left: 1296px;
+            top: 1217px;
+        }
+
+        #section2 button {
+            top: 1475px;
+            left: 874px;
+        }
+
+        #section2 .section-headline {
+            font-size: 48px;
+            line-height: 61.54px;
+            background: linear-gradient(to right, #111111 25%, #B1B1B1 50%, #696969 75%, #B1B1B1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            display: inline-block;
+            top: 50px;
+            left: 837px;
+        }
+
+        #section2 .section-description {
+            left: 760px;
+            top: 232px;
+            font-size: 31px;
+            line-height: 39.74px;
+            display: inline-block;
+        }
+
+        #section3  #productSelect{
+            top: 4429px;
+            left: 776px;
+            width: 368px;
+        }
+
+        #section3 #productSelect select {
+            padding: 10px 40px 10px 40px;
+            font-size: 20px;
+             -moz-appearance: none;
+            -webkit-appearance: none;
+            appearance: none;   
+            background-image: url("public/images/arrow.svg");
+            background-repeat: no-repeat, repeat;
+            background-position: right 1.7em top 50%, 0 0;
+            background-size: .65em auto, 100%;
+            border: none;
+            outline: none;
+            position: absolute;
+            right: 18px;
+            top: -1px;
+        }
+
+        #section3 #productSelect select::-ms-expand {
+            display: none;
+        }
+
+        #section3 #productSelect p {
+                outline: #AD4844 1px solid;
+                font-size: 20px;
+                line-height: 25.64px;
+                font-weight: 450;
+                padding: 7px;
+                display: inline-block;
+                border: none;
+                position: absolute;
+        }
+
+        #section3 #product-catalogue {
+            top: 4595px;
+            left: 143px;
+            display: flex;
+            flex-wrap: wrap;
+            min-width: 1634px;
+            justify-content: flex-start;
+            padding-bottom: 200px;
+        }
+
+        #section3 #product-catalogue .product-item {
+            width: 371px;
+            height: 350px;
+            background-color: #bebebe;
+            line-height: 39.74px;
+            font-size: 31px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            margin-right: 50px;
+        }
+
+        #section3 #product-catalogue .product-item:nth-child(4n) {
+            margin-right: 0;
+        }
+
+        #loader {
+            top: 500px;
+            left: 894px;
+            position: fixed;
+        }
+
+        #popUp {
+            position: fixed;
+            margin: auto;
+            width: 843px;
+            height: 285px;
+            top: 428px;
+            left: 538px;
+            border-radius: 8px;
+            background-color: white;
+            z-index: 5;
+            font-size: 31px;
+            line-height: 39.74px;
+        }
+
+        #popUp span.exit {
+            top: 0;
+            right: 33px;
+            font-size: 31px;
+            line-height: 39.74px;
+        }
+
+        #shadow {
+            position: fixed;
+            background-color: rgba(0,0,0,0.5);
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: vh;
+            height: vw;
+            z-index:2;
+        }
+
+
+    </style>
+
+    <nav class="flex white shadow">
+        <a href="home" class="absolute">
+            <img src="public\images\Arthrohard.png" alt="Logo">
+        </a>
+        <ul class="flex no-list-style absolute">
+            <a id="linkSection1" href="#section1">
+                <li >Co nas Wyróżnia</li>
+            </a>
+            <a id="linkSection2" href="#section2">
+                <li id="linkSection2">Skład</li>
+            </a>
+            <a id="linkSection3" href="#productSelect">
+                <li id="linkSection3">Produkty</li>
+            </a>
+        </ul>
+    </nav>
+    <section id="section1">
+        <img class="absolute" src="public/images/Group 18.png" alt="Supplement">
+        <img class="absolute" src="public/images/Arthrohard_large.png" alt="logo large">
+        <div id="calltoactionarea" class="absolute">
+            <h6 id="gradient-headline" class="no-margin">
+                Lab-V Arthrohard Preparat na wsparcie stawów dla psa i kota
+            </h6>
+            <p class="no-margin">
+                Arthrohard to dobrze przyswajalny suplement diety w formie syropu, stworzony z myślą o zdrowiu stawów Twojego psa lub kota.
+            </p>
+            <button class="green button">
+                Kup teraz
+            </button>
+        </div>
+        <img id="spot1" class="absolute" src="public/images/vector1.svg" alt="Spot"> 
+        <img id="spot2" class="absolute" src="public/images/vector2.svg" alt="Spot">
+        <img id="spot3" class="absolute" src="public/images/vector3.svg" alt="Spot">
+        
+        
+
+        <div id="text-area1" class="absolute">
+            <p id="gradient-headline2" class="no-margin">Co wyróżnia nasz preparat</p>
+            <div class="divider"></div>
+        </div>
+        <div id="text-row" class="absolute text-center flex">
+            <div class="column">
+                <div class="headline">
+                    Innowacyjny dodatek -<br>
+                    Czarciego Pazura
+                </div>
+                <div class="divider">
+
+                </div>
+                <div class="body">
+                    Zapewnia dodatkowe wsparcie w zwalczaniu stanów bólowych i zapalnych. Skoncentrowane składniki aktywne, opracowane we współpracy z lekarzami weterynarii, przynoszą szybkie i zauważalne efekty, szczególnie korzystne dla zwierząt z poważnymi problemami stawowymi.
+                </div>
+            </div>
+            <div class="column">
+                <div class="headline">
+                    Wygoda - <br>
+                    dwa sposoby podawania
+                </div>
+                <div class="divider">
+                </div>
+                <div class="body">
+                    <ul class="no-list-style no-padding">
+                        <li>
+                            <span class="inline white dot">1</span>
+                            <p class="inline">Bezpośrednio do pyszczka</p>
+                        </li>
+                        <li>
+                            <span class="inline white dot">2</span>
+                            <p class="inline">Zmieszany z karmą</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="headline">
+                    Skuteczność - <br>
+                    skoncentrowana dawka
+                </div>
+                <div class="divider">
+
+                </div>
+                <div class="body">
+                    <b>Tylko jedna porcja dziennie.</b> <br>
+                    To nie tylko wygoda, ale również gwarancja,<br>
+                     że Twoje zwierzę otrzymuje wszystko, czego <br>
+                     potrzebuje, aby cieszyć się zdrowiem i aktywnością <br>
+                     na długo. Skorzystaj z zalet Arthrohard i zobacz <br>
+                     różnicę w komforcie życia swojego zwierzęcia.
+                    </div>
+                </div>
+            </div>
+            <img id="banner" class="absolute" src="public/images/banner.png" alt="Banner">
+            <img id="spot4" class="absolute" src="public/images/vector4.svg" alt="Spot">
+            <img id="spot5" class="absolute" src="public/images/vector5.svg" alt="Spot">
+            <img id="spot6" class="absolute" src="public/images/vector6.svg" alt="Spot">
+            <img id="spot7" class="absolute" src="public/images/vector7.svg" alt="Spot">
+            <img id="spot8" class="absolute" src="public/images/vector8.svg" alt="Spot">
+        </section>
+        
+        <section id="section2" class="white text-center absolute">
+            <img src="public/images/Group 16.png" class="absolute" alt="Product">
+            <button class="button red absolute">Kup teraz</button>
+            <div class="section-headline absolute">
+                <p>Skład w 5 ml</p>
+                <div class="divider"></div>
+            </div>
+
+            <div class="section-description absolute">
+                <p>Co dają poszczególne składniki:</p>
+            </div>
+            
+            <div id="ingredientArea1" class="ingredientArea absolute">
+            <div class="elipse"></div>
+            <div class="details">
+                <div class="headline">Siarczan glukozaminy</div>
+                <div class="content">650 mg</div>
+                <div class="body">
+                    Glukozamina jest naturalnym składnikiem chrząstki.<br> 
+                    Dodatek glukozaminy przyczynia się do zwiększenia <br>
+                    produkcji glikozaminoglikanów (m.in. siarczanu <br>
+                    keratanu, heparanu, kwasu hialuronowego), które <br>
+                    pomagają w odbudowie chrząstki, co jest <br>
+                    szczególnie korzystne dla zwierząt ze zmianami <br> 
+                    zwyrodnieniowymi stawów.</div>
+                </div>
+            </div>
+            
+        <div id="ingredientArea2" class="ingredientArea absolute">
+            <div class="elipse"></div>
+            <div class="details">
+                <div class="headline">Siarczan chondroityny</div>
+                <div class="content">300 mg</div>
+                <div class="body">Chondroityna, podobnie jak glukozamina, jest <br>
+                    składnikiem chrząstki. Chondroityna pomaga <br>
+                    zwalczać enzymy, które niszczą chrząstkę, a także <br>
+                    pomaga chrząstce zatrzymać wodę, co jest ważne <br>
+                    dla jej sprężystości i absorpcji wstrząsów.</div>
+            </div>
+        </div>
+        <div id="ingredientArea3" class="ingredientArea absolute">
+            <div class="elipse"></div>
+            <div class="details">
+                <div class="headline">Kwas hialuronowy</div>
+                <div class="content">50 mg</div>
+                <div class="body">Kwas hialuronowy jest kluczowym składnikiem płynu <br>
+                    stawowego, który działa jak smar i amortyzator dla <br>
+                    stawów. Suplementacja kwasem hialuronowym może <br>
+                    pomóc w utrzymaniu prawidłowej objętości <br>
+                    i konsystencji płynu stawowego.</div>
+            </div>
+        </div>
+        <div id="ingredientArea4" class="ingredientArea absolute">
+            <div class="elipse"></div>
+            <div class="details">
+                <div class="headline">Czarci pazur</div>
+                <div class="content">250 mg</div>
+                <div class="body">Czarci pazur jest rośliną, która ma właściwości <br>
+                    przeciwzapalne i przeciwbólowe. Może to pomóc <br>
+                    zwierzętom, które doświadczają bólu i stanu <br>
+                    zapalnego związanego z problemami ze stawami.</div>
+            </div>
+        </div>
+        <div id="ingredientArea5" class="ingredientArea absolute">
+            <div class="elipse"></div>
+            <div class="details">
+                <div class="headline">Witamina C</div>
+                <div class="content">50 mg</div>
+                <div class="body">Witamina C jest potężnym przeciwutleniaczem, <br>
+                    który może pomóc w ochronie stawów poprzez <br>
+                    neutralizację wolnych rodników, które mogą <br>
+                    uszkadzać chrząstkę. Ponadto, witamina C odgrywa <br> 
+                    ważną rolę w produkcji kolagenu, kluczowego <br>
+                    składnika chrząstki.</div>
+            </div>
+        </div>
+        <div id="ingredientArea6" class="ingredientArea absolute">
+            <div class="elipse"></div>
+            <div class="details">
+                <div class="headline">MSM</div>
+                <div class="content">250 mg</div>
+                <div class="body">Metylosulfonylometan, czyli MSM, to naturalny <br>
+                    związek siarki, który pomaga w utrzymaniu <br>
+                    zdrowych stawów poprzez zmniejszenie stanu <br>
+                    zapalnego i bólu. MSM może również pomagać <br>
+                    w produkcji kolagenu, co przyczynia się do zdrowia <br>
+                chrząstki stawowej.</div>
+            </div>
+        </div>
+        <div id="parallax-dog" class="absolute">
+        </div>
+    </section>
+    <section id="section3">
+        <div id="productSelect" class="absolute select">
+            <p class="no-margin">liczba produktów na stronie</p>
+            <select name="product_amount " class="red white-font" id="product_amount_select">
+                <option value="25">25</option>
+                <option selected value="50">50</option>
+                <option value="75">75</option>
+                <option value="100">100</option>
+            </select>
+        </div>
+
+        <div id="product-catalogue" class="wrapper absolute">
+        </div>
+    </section>
+    
+    <div id="loader" class="hidden">
+        <img src="public/images/spinner.gif" alt="Spinner Loader">
+    </div>
+
+    <div id="popUp" class="hidden">
+        <ul class="flex margin-left-20px no-margin full-height flex-wrap align-center no-list-style">
+            <li class="whole-basis padding-left-20px"></li>
+            <li class="whole-basis padding-left-20px"></li>
+            <li class="whole-basis padding-left-20px"></li>
+        </ul>
+        <span class="exit absolute">&#120;</span>
+    </div>
+    <div id="shadow" class="hidden"></div>
+
+<script>
+    (function(){
+    var toLoad = false,
+    // Lazy load.
+    lazyLoad = true,
+    // Page number.
+    cp = 1,
+    // Amount of products to be shown on the page from the select setting.
+    ps = 50,
+    // Amount of elements currently on the page.
+    aoe = 0,
+    // All data merged
+    allData = [];
+    // ClosePopUp Callback
+    function closePopUp(e) {
+            // Popup element
+            var popUpEl = document.querySelector("#popUp");
+            // Shadow element
+            var shadowEl = document.querySelector("#shadow");
+            //Hide popup element and shadow element
+            popUp.className = "hidden";
+            popUpEl.innerHtml = "";
+            shadowEl.className = "hidden";
+        }
+
+    //Dom Rendering Function
+    function buildDom(items) {
+        // OpenPopUp Callback
+        function openPopUp(e) {
+            // Shadow element
+            var shadowEl = document.querySelector("#shadow");
+            // Popup element
+            var popUpEl = document.querySelector("#popUp");
+            // Show the popupElement by changing the className property.
+            popUpEl.className="show";
+            // Add data to the popup element.
+            var lis = popUpEl.querySelectorAll("li");
+            lis[0].innerText = `ID: ${e.target.dataset.id}`;
+            lis[1].innerText = `Nazwa: ${e.target.dataset.name}`;
+            lis[2].innerText = `Wartość: ${e.target.dataset.value}`;
+             // Show shadow element.
+            shadowEl.className = "show";
+        }
+        
+
+        function buildProductElement(item) {
+            // Create new div element.
+            var el = document.createElement("div");
+            // Give it a new classname.
+            el.className = "product-item";
+            // Change the text of the element.
+            el.innerText = `ID: ${item.id}`;
+            // Add data attribute id
+            el.dataset.id = item.id;
+            // Add data attribute name
+            el.dataset.name = item.name;
+            // Add data attribute value
+            el.dataset.value = item.value;
+            el.addEventListener("click", openPopUp)
+            return el;
+        }
+        // Reference to the wrapper element.
+        const wrapperEl = document.querySelector("#product-catalogue");
+        // Remove all children
+        const children = [];
+        // Add product elements.
+        for (var i = 0; i < items.length; i++) {
+            // wrapperEl.appendChild(buildProductElement(items[i]));
+            children.push(buildProductElement(items[i]));
+            wrapperEl.replaceChildren(...children);
+        }
+    }
+    // Event Callback For Select Change
+    function adjustPageSize(e) {
+        console.log(cp);
+        // The value coming out from the event object.
+        var value = e.target.value;
+        console.log(value);
+        // Re-assign the page size.
+        ps = value;
+        // Change the current page.
+        cp = Math.ceil(aoe / ps);
+        console.log(cp);
+    }
+    // Merges the new data and all data.
+    function mergeData(all, newData) {
+        // Get the starting position for the allData array.
+        let start = all.length == 0 ? 0 : all[all.length-1].id;
+        // Loop through all of the newData.
+        for (var i = 0; i < newData.length; i++) {
+            // If start is bigger than i then skip the assignment.
+            if(start >= newData[i].id) {
+                continue;
+            }
+            // Push the new data to the end of the all array.
+            all.push(newData[i]);
+        }
+    }
+
+    async function scrollCallback(event) {
+        // Y position of the product catalogue element;
+        var pos = 4429;
+        // Current Y position of the bottom of the screen.
+        console.log("Screen height is: ", screen.height, "Window Scroll is: ", window.scrollY);
+        var scrolledPos = window.scrollY + screen.height;
+        // Check if the scrolled position is bigger than the position of the element and whether the
+        if(scrolledPos > pos && aoe < 1000 && lazyLoad == true) {
+            //Turn off lazy loading.
+            lazyLoad = false;
+            // Turn on loader
+            var loaderEl = document.querySelector("#loader");
+            loaderEl.className = "show";
+            // String literal for api url.
+            var url = `https://brandstestowy.smallhost.pl/api/random?pageNumber=${cp}&pageSize=${ps}`;
+            // Response promise object.
+            const response = await fetch(url);
+            // Promise resolved.
+            const data = await response.json();
+            //Merge data
+            mergeData(allData, data.data);
+            //Build DOM
+            buildDom(allData);
+            // Increment the page.
+            cp++;
+            // Update the amount of elements on page count.
+            aoe = data.pageNumber*data.pageSize;
+            // Enable loading when user scrolls to the bottom of the page.
+            toLoad = true;
+            loaderEl.className = "hidden";
+        }
+
+        // Position of the second section
+        const posSection2 = 2136;
+        if (scrolledPos < posSection2) {
+            document.querySelector("#linkSection1 li").className = "underline";
+            document.querySelector("#linkSection2 li").className = "";
+            document.querySelector("#linkSection3 li").className = "";
+        } else if(scrolledPos < pos) {
+            document.querySelector("#linkSection1 li").className = "";
+            document.querySelector("#linkSection2 li").className = "underline";
+            document.querySelector("#linkSection3 li").className = "";
+        } else {
+            document.querySelector("#linkSection1 li").className = "";
+            document.querySelector("#linkSection2 li").className = "";
+            document.querySelector("#linkSection3 li").className = "underline";
+        }
+
+        // Position of the bottom of the page.
+        var posBottomPage = document.documentElement.scrollHeight;
+       
+        if (scrolledPos >= posBottomPage && toLoad == true && aoe < 1000) {
+            toLoad = false;
+            var loaderEl = document.querySelector("#loader");
+            loaderEl.className="show";
+            // String literal for api url.
+            var url = `https://brandstestowy.smallhost.pl/api/random?pageNumber=${cp}&pageSize=${ps}`;
+            // Response promise object.
+            const response = await fetch(url);
+            // Promise resolved.
+            const data = await response.json();
+            // 
+            console.log("Current count of data")
+            //Merge the data.
+            mergeData(allData, data.data);
+            // Build DOM.
+            buildDom(allData);
+            // Hide loader
+            loaderEl.className="hidden";
+            // Update the element count.
+            aoe = allData.length;
+            // Begin the toLoad only here.
+            toLoad = true;
+            cp++;
+        }
+    }
+
+    var selectEl = document.querySelector("#product_amount_select");
+    selectEl.addEventListener("change", adjustPageSize);
+    var shadowEl = document.querySelector("#shadow");
+    var exitPopUpEl = document.querySelector("#popUp span.exit")
+    exitPopUpEl.addEventListener("click", closePopUp);
+    shadowEl.addEventListener("click", closePopUp);
+    window.addEventListener("touchmove", scrollCallback);
+    window.addEventListener("scroll", scrollCallback);
+    })();
+
+    var docWidth = document.documentElement.offsetWidth;
+    [].forEach.call(
+            document.querySelectorAll('*'),
+            function (el) {
+                if (el.offsetWidth > docWidth) {
+                    console.log(el);
+                }
+            }
+        );
+        
+</script>
+
+</body>
+</html>
